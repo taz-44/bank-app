@@ -1,10 +1,27 @@
 import {BankAccount} from "./bankAccount";
+import {TransactionOrigin} from "../common/enums/TransactionOrigin";
+import {Transaction} from "../common/interfaces/Transaction";
 
 export class SavingsAccount extends BankAccount {
-    constructor() {
-        super(new Date());
+
+
+    constructor(currentDate) {
+        super(currentDate);
         this.balance = 10000;
         this.interestRate = .02;
+
+
+        }
+
+
+    withdrawMoney(amount: number, description: string, transactionOrigin: TransactionOrigin): Transaction {
+        let restrictedTransactions = 0;
+
+        if(transactionOrigin === 1 ||transactionOrigin === 2) {
+            restrictedTransactions = restrictedTransactions + 1;
+            return super.withdrawMoney(amount, description, transactionOrigin);
+        }
+
     }
 
 }

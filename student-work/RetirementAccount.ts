@@ -2,10 +2,11 @@ import {BankAccount} from "./BankAccount";
 
 export class RetirementAccount extends BankAccount {
 
-    constructor() {
-        super(new Date());
+    constructor(currentDate, accountHolderBirthDate) {
+        super(currentDate);
         this.balance =  100000;
         this.interestRate = .03;
+        this.accountHolderBirthDate = accountHolderBirthDate;
 
     }
 

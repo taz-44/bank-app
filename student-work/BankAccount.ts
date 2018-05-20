@@ -8,43 +8,42 @@ export class BankAccount implements Account{
     accountHistory: Transaction[] = [];
     accountHolderBirthDate: Date;
     interestRate: number; //monthly interest rate.
-    currentDate: Date;
 
-    constructor(public startDate : Date){
-        this.currentDate = startDate;
+    constructor(public currentDate : Date){
+        this.currentDate = currentDate;
 
     }
 
     advanceDate(numberOfDays: number) {
 
         let today = this.currentDate;
-        console.log("days to advance " + numberOfDays);
-        console.log("the starting balance is "+this.balance);
-        console.log("the date is "+today);
+
+        //console.log("days to advance " + numberOfDays);
+        // console.log("the starting balance is "+this.balance);
+        // console.log("the date is "+today);
         for(let i = 0; i < numberOfDays; i++){
-
+            today.setDate(today.getDate() + 1);
             if(today.getDate() === 1){
-
                 let monthlyInterest: number = Number((this.balance * (this.interestRate / 12)));
                 this.depositMoney(Number(monthlyInterest.toFixed(2)), "Interest Earned", this.currentDate);
-                console.log("the day is " + this.currentDate + "/////////////////////////");
-                console.log("the balance is " + this.balance + "/////////////////////////");
+                // console.log("the day is " + this.currentDate + "/////////////////////////");
+                // console.log("the balance is " + this.balance + "/////////////////////////");
 
             }
 
-            today.setDate(today.getDate() + 1);
+
         }
-        console.log(this.accountHistory);
+       // console.log(this.accountHistory);
     }
 
-    depositMoney(amount: number, description: string, date?: Date): Transaction {
+    depositMoney(amount: number, description: string): Transaction {
         this.balance += amount;
 
         let deposit = {
             success: true,
             amount: amount,
             resultBalance: this.balance,
-            transactionDate: date || this.currentDate,
+            transactionDate: this.currentDate,
             description: description,
             errorMessage: ""
         };
@@ -59,7 +58,7 @@ export class BankAccount implements Account{
         if(amount > this.balance){
              withdraw = {
                 success: false,
-                amount: amount,
+                amount: -amount,
                 resultBalance: this.balance,
                 transactionDate: this.currentDate,
                 description: description,
@@ -73,7 +72,7 @@ export class BankAccount implements Account{
 
              withdraw = {
                 success: true,
-                amount: amount,
+                amount: -amount,
                 resultBalance: this.balance,
                 transactionDate: this.currentDate,
                 description: description,

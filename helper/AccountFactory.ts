@@ -6,15 +6,15 @@ import {RetirementAccount} from "../student-work/RetirementAccount";
 export class AccountFactory {
 
     static getCheckingAccountObject(currentDate: Date): Account {
-        return new CheckingAccount();
+        return new CheckingAccount(currentDate);
     }
 
     static getSavingsAccountObject(currentDate: Date): Account {
-        return new SavingsAccount();
+        return new SavingsAccount(currentDate);
     }
 
     static getRetirementAccountObject(currentDate: Date, accountHolderBirthDate: Date): Account {
-        return new RetirementAccount();
+        return new RetirementAccount(currentDate, accountHolderBirthDate);
     }
 
 }

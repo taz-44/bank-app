@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const BankAccount_1 = require("./BankAccount");
 class CheckingAccount extends BankAccount_1.BankAccount {
-    constructor() {
-        super(new Date());
+    constructor(currentDate) {
+        super(currentDate);
         this.balance = 1000;
         this.interestRate = .01;
     }
