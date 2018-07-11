@@ -13,16 +13,16 @@ export class SavingsAccount extends BankAccount {
 
         }
 
-
-    withdrawMoney(amount: number, description: string, transactionOrigin: TransactionOrigin): Transaction {
-        let restrictedTransactions = 0;
-
-        if(transactionOrigin === 1 ||transactionOrigin === 2) {
-            restrictedTransactions = restrictedTransactions + 1;
-            return super.withdrawMoney(amount, description, transactionOrigin);
-        }
-
-    }
+    //
+    // withdrawMoney(amount: number, description: string, transactionOrigin: TransactionOrigin): Transaction {
+    //     let restrictedTransactions = 0;
+    //
+    //     if(transactionOrigin === 1 ||transactionOrigin === 2) {
+    //         restrictedTransactions = restrictedTransactions + 1;
+    //         return super.withdrawMoney(amount, description, transactionOrigin);
+    //     }
+    //
+    // }
 
 }
 

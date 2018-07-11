@@ -15,7 +15,7 @@ class BankAccount {
             today.setDate(today.getDate() + 1);
             if (today.getDate() === 1) {
                 let monthlyInterest = Number((this.balance * (this.interestRate / 12)));
-                this.depositMoney(Number(monthlyInterest.toFixed(2)), "Interest Earned", this.currentDate);
+                this.depositMoney(Number(monthlyInterest.toFixed(2)), "Interest Earned");
                 // console.log("the day is " + this.currentDate + "/////////////////////////");
                 // console.log("the balance is " + this.balance + "/////////////////////////");
             }

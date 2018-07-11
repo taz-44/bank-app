@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9cc6a6c-cd9b-4b43-84f4-c818a802627b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/helper/AccountFactory.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/helper/AccountFactory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/helper/AccountFactory.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/helper/AccountFactory.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/helper/e2e/1.CheckingAccount.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/helper/e2e/1.CheckingAccount.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/helper/e2e/1.CheckingAccount.spec.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/helper/e2e/1.CheckingAccount.spec.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/student-work/CheckingAccount.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/student-work/CheckingAccount.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/student-work/CheckingAccount.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/student-work/CheckingAccount.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/student-work/RetirementAccount.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/student-work/RetirementAccount.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/student-work/RetirementAccount.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/student-work/RetirementAccount.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/student-work/SavingsAccount.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/student-work/SavingsAccount.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/student-work/SavingsAccount.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/student-work/SavingsAccount.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/student-work/bankAccount.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/student-work/bankAccount.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/student-work/bankAccount.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/student-work/bankAccount.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helper/AccountFactory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/helper/AccountFactory.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helper/e2e/1.CheckingAccount.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/helper/e2e/1.CheckingAccount.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student-work/BankAccount.ts" beforeDir="false" afterPath="$PROJECT_DIR$/student-work/BankAccount.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-work/CheckingAccount.ts" beforeDir="false" afterPath="$PROJECT_DIR$/student-work/CheckingAccount.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-work/RetirementAccount.ts" beforeDir="false" afterPath="$PROJECT_DIR$/student-work/RetirementAccount.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student-work/SavingsAccount.ts" beforeDir="false" afterPath="$PROJECT_DIR$/student-work/SavingsAccount.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -63,8 +50,8 @@
               <file leaf-file-name="BankAccount.ts" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/student-work/BankAccount.ts">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="116">
-                      <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="52" />
+                    <state relative-caret-position="92">
+                      <caret line="30" selection-start-line="30" selection-end-line="30" />
                       <folding>
                         <element signature="e#0#53#0" expanded="true" />
                       </folding>
@@ -84,14 +71,23 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="SavingsAccount.ts" pinned="false" current-in-tab="true">
+              <file leaf-file-name="SavingsAccount.ts" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/student-work/SavingsAccount.ts">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="300">
-                      <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+                    <state relative-caret-position="75">
+                      <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
                       <folding>
                         <element signature="e#0#42#0" expanded="true" />
                       </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/node_modules/balanced-match/README.md">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="144">
+                      <caret line="49" column="200" selection-start-line="49" selection-start-column="200" selection-end-line="49" selection-end-column="200" />
                     </state>
                   </provider>
                 </entry>
@@ -228,6 +224,17 @@
               <item name="helper" type="462c0819:PsiDirectoryNode" />
               <item name="e2e" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bank-system-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bank-system-app" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bank-system-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bank-system-app" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="balanced-match" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -286,26 +293,25 @@
       <workItem from="1526651733456" duration="1000" />
       <workItem from="1526654488769" duration="1115000" />
       <workItem from="1526659858534" duration="35000" />
-      <workItem from="1526659917363" duration="1746000" />
+      <workItem from="1526659917363" duration="2477000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37212000" />
+    <option name="totallyTimeSpent" value="37943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32867134" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3272727" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3272727" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -349,16 +355,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/student-work/CheckingAccount.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="42" lean-forward="true" selection-start-column="42" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/student-work/RetirementAccount.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -755,6 +751,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/common/enums/TransactionOrigin.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/student-work/CheckingAccount.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -767,28 +770,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/student-work/BankAccount.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="52" />
+        <state relative-caret-position="92">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/enums/TransactionOrigin.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/student-work/SavingsAccount.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+        <state relative-caret-position="75">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/balanced-match/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="49" column="200" selection-start-line="49" selection-start-column="200" selection-end-line="49" selection-end-column="200" />
         </state>
       </provider>
     </entry>
